@@ -1,18 +1,23 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
 body{
     margin: 0;
+    max-width: 50cm;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
+    line-height: 1.3;
+    padding: 0;
+    background-color: #f9f6f1
 }
 
 .menu {
     margin: 0;
-    padding: 0;
+    padding: 0 10%;
     list-style: none;
     text-align: right;
-    background-color: #3F3931;
+    background-color: #efc9be;
 }
 
 .menu li {
@@ -21,6 +26,16 @@ body{
 
 .menu a {
     display: inline-block;
+    text-decoration: none;
+    color: #3F3931;
+    padding: 20px;
+    margin: 2px;
+}
+
+.menu a:hover {
+    background-color: #3F3931;
+    color: white;
+    border-radius: 20px;
 }
 
 h1,
@@ -29,24 +44,97 @@ h3 {
     font-family: "Madimi One", Helvetica, sans-serif;
     font-weight: bold;
     font-style: normal;
-    color: #3F3931;
+    color:#3F3931;
+    line-height: 1.3;
 }
 
 h1 {
-    margin: 0 15%;
+    margin: ;
     display: inline-block;
-    padding: 20% 0;
+    padding: 200px 15% 0 20%;
     font-size: 60px;
-    
+    color: #3F3931;    
 }
 
 .hlava {
-    width: 25%;
-    display: inline-block;
+    width: 400px;
     vertical-align: bottom;
+    float: right;
+    margin-right: 150px;
 }
 
 .header {
-    background-color: #E7B5AC;
+    background-color: #efc9be;
     vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.fotoklara {
+    border-radius: 50px;
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    border:#badbee solid 1px;
+}
+
+.omne {
+    padding: 50px 10%;
+    background-color: #2e324d;
+    overflow: auto;
+    vertical-align: middle;
+    color: #FDE9EA;
+}
+
+.omne h2,
+.omne h3 {
+    color: #f9f6f1;
+}
+
+.icon {
+    width: 30px;
+    margin-right: 15px;
+    vertical-align: bottom;
+}
+.setkani {
+    background-color: #badbee;
+    padding: 20px 10%;
+    overflow: auto;
+}
+
+.setkani img {
+    float: right;
+    width: 200px;
+    border-radius: 30%;
+    margin-left: 20px;
+}
+
+.domov {
+    background-color: #ffe0de;
+    padding: 20px 10%;
+    
+}
+
+.fotogalerie {
+    padding: 20px 10%;
+}
+
+.fotogalerie img {
+    width:19%;
+}
+.cas {
+    background-color: #D7E1CE;
+    padding: 20px 10%;
+}
+
+.cas img {
+    width: 300px;
+}
+
+.paticka {
+    background-color: #2e324d;
+    padding: 10px 10%;
+    text-align: center;
+    color:#efc9be;
 }
