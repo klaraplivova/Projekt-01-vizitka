@@ -6,7 +6,7 @@ body{
     margin: 0;
     max-width: 50cm;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.3;
     padding: 0;
     background-color: #f9f6f1
@@ -35,7 +35,7 @@ body{
 .menu a:hover {
     background-color: #3F3931;
     color: white;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 h1,
@@ -54,6 +54,14 @@ h1 {
     padding: 200px 15% 0 20%;
     font-size: 60px;
     color: #3F3931;    
+}
+
+h2 {
+    font-size:30px;
+}
+
+h3 {
+   font-size: 20px;    
 }
 
 .hlava {
@@ -108,6 +116,7 @@ h1 {
     width: 200px;
     border-radius: 30%;
     margin-left: 20px;
+    border:#efc9be solid 2px;
 }
 
 .domov {
@@ -122,6 +131,13 @@ h1 {
 
 .fotogalerie img {
     width:19%;
+    padding:10px;
+}
+
+.fotopozadi {
+    background-color: #2e324d;
+    padding: 20px 50px;
+    border-radius: 10px;
 }
 .cas {
     background-color: #D7E1CE;
@@ -130,6 +146,17 @@ h1 {
 
 .cas img {
     width: 300px;
+    
+}
+
+table {
+    
+}
+
+th,
+td {
+    border-bottom: #2e324d 2px dashed;
+    padding: 20px;
 }
 
 .paticka {
