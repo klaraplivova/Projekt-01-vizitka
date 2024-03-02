@@ -143,11 +143,20 @@ h3 {
     padding:10px;
 }
 
-.fotopozadi {
+.ospaly {
     background-color: #2e324d;
     padding: 20px 50px;
     border-radius: 10px;
 }
+
+.schovany {
+
+}
+
+.prasteny {
+
+}
+
 .cas {
     background-color: #8ca0e5;
     padding: 20px 10%;
