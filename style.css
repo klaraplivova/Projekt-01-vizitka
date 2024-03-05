@@ -49,13 +49,17 @@ h3 {
     line-height: 1.3;
 }
 
-/* add text shadow */
+p {
+    text-indent: 10px;
+}
+
 h1 {
     margin: 0;
     display: inline-block;
     padding: 200px 5% 0 15%;
     font-size: 60px;
-    color: #3F3931;    
+    color: #3F3931;  
+    text-shadow: 2px 2px 2px #f9f6f1;  
 } 
 
 h2 {
@@ -98,6 +102,10 @@ h3 {
     color: #f9f6f1;
 }
 
+.omne p {
+    text-indent: 0;
+}
+
 .omne h2,
 .omne h3 {
     color: #ffe0de;
@@ -107,11 +115,16 @@ h3 {
     text-decoration: wavy;
     color: #efc9be;
 }
+
+.omne a:visited {
+    color:#f9f6f1;
+}
 .icon {
     width: 30px;
     margin-right: 15px;
     vertical-align: bottom;
 }
+
 .setkani {
     background-color: #badbee;
     padding: 20px 15%;
@@ -136,6 +149,15 @@ h3 {
     list-style: circle;
     color:#2e2a24;
 }
+.domov a {
+    text-decoration: #2e324d wavy underline;;
+    color: #2e324d;
+    line-height: 1.8;
+}
+.domov a:visited {
+    color: black;
+}
+
 .fotogalerie {
     padding: 20px 15%;
 }
@@ -147,23 +169,23 @@ h3 {
     border-radius: 15px;
 }
 
-.ospaly,
-.schovany,
-.silly {
+.spani,
+.schovavani,
+.blazneni {
     padding: 20px;
     border-radius: 10px;
     margin: 30px 0;
 }
 
-.ospaly {
+.spani {
     background-color: #efc9be;
 }
 
-.schovany {
+.schovavani {
     background-color: #8ca0e5;
 }
 
-.silly {
+.blazneni {
     background-color: #2e324d;
 }
 
@@ -198,6 +220,11 @@ td {
 
 .nopadding {
    padding-left: 10px;
+}
+
+.nodashnopadding {
+    padding-left: 10px;
+    border-bottom: none;
 }
 
 .paticka {

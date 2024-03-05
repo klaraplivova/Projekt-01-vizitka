@@ -12,13 +12,12 @@
 </head>
 <body>
     <section>
-        <!-- add working ids to the sections  -->
         <ul class="menu">
-            <li><a href=#omne>O mně</a></li>
-            <li><a href=#prvnisetkani>První setkání</a></li>
-            <li><a href=#domov>Domov</a></li>
-            <li><a href=#fotogalerie>Fotogalerie</a></li>
-            <li><a href=#acasplunul>A čas plynul</a></li>
+            <li><a href="#omne">O mně</a></li>
+            <li><a href="#prvnisetkani">První setkání</a></li>
+            <li><a href="#domov">Domov</a></li>
+            <li><a href="#fotogalerie">Fotogalerie</a></li>
+            <li><a href="#cas">A čas plynul</a></li>
         </ul>
     </section>
 
@@ -27,15 +26,15 @@
         <img src="photos/header1.png" alt="hlava kocky" class="hlava">
     </header>
 
-    <section class="omne" id=omne>
+    <section class="omne" id="omne">
         <img class="fotoklara" src="photos/profilepicture1.JPG" alt="fotoklara">
         <h2>O mně</h2>
-        <p>Jmenuju se Klára Plívová a tyto stránky jsou o příběhu mého kocoura.</p>
+        <p>Jmenuji se Klára Plívová a tyto stránky jsou o příběhu mého kocoura.</p>
         <h3>Kontakt</h3>
         <p><img class="icon" src="photos/githubicon.png" alt="github icon"><a href="https://github.com/klaraplivova">Github</a><br><img class="icon" src="photos/linkedinicon.png" alt="linkedin icon"><a href="https://cz.linkedin.com/in/kl%C3%A1ra-pl%C3%ADvov%C3%A1-954a44261">Linkedin</a></p>
     </section>
 
-    <section class="setkani" id="setkani">
+    <section class="setkani" id="prvnisetkani">
         <img src="photos/creamcheese1.JPG" alt="kotě od tvarohu">
         <img src="photos/sleepinhands1.JPEG" alt="kotě v náručí">
         <h2>První setkání</h2>
@@ -44,40 +43,38 @@
         
     </section>
 
-    <section class="domov">
+    <section class="domov" id="domov">
         <h2>Domov</h2>
 
         <p>Nechat si Viléma bylo rozhoduntí, které jsem tehdy se svými spolubydlícími okamžitě přijala. Hned po pár hodinách v novém prostředí dostal hlad a začal prozkoumávat vše kolem. Jeho živé osobnost prozářila každý kout našeho bytu - od honby za vlastním ocasem až po útulný spánek.</p>
-        <p>Výčet jeho nejoblíbenějších aktivit byl jasný velmi brzy. V podstatě jde říct, že pravidelné střídá pouze několik stavů, těmi jsou:</p>
+        <p>Výčet jeho <em>nejoblíbenějších</em> aktivit byl jasný velmi brzy. V podstatě jde říct, že pravidelné střídá pouze několik stavů, těmi jsou:</p>
 
         <ul>
-            <li>Ospalý</li>
-            <li>Schovaný</li>
-            <li>Silly</li>
+            <li><a href="#spani">Spánek</a></li>
+            <li><a href="#schovavani">Schovávání</a></li>
+            <li><a href="#blazneni">Bláznění</a></li>
         </ul>
 
     </section>
 
-    <section class="fotogalerie">
+    <section class="fotogalerie" id="fotogalerie">
         <h2>Fotogalerie</h2>
 
-<!-- add ids to the list above -->
-
-        <div class="ospaly">
+        <div class="spani" id="spani">
                 <img src="photos/laptopmorning.JPEG" alt="">
                 <img src="photos/IMG_9345.JPEG" alt="">
                 <img src="photos/kittybedsheetsog.JPEG" alt="">
                 <img src="photos/bedsheets.JPG" alt="">
         </div>
 
-        <div class="schovany"> 
+        <div class="schovavani" id="schovavani"> 
                 <img src="photos/mccatog.JPEG" alt="kocour v peřině">
                 <img src="photos/sleepinsweater.JPEG" alt="">
                 <img src="photos/cupboard.JPEG" alt="">
                 <img src="photos/box.JPEG" alt="">
         </div>
 
-        <div class="silly">
+        <div class="blazneni" id="blazneni">
                 <img src="photos/grass.JPEG">
                 <img src="photos/drinking.JPEG">
                 <img src="photos/head_rest.JPEG">
@@ -85,9 +82,7 @@
         </div>
     </section>
 
-<!-- can element have more classes? -->
-
-    <section class="cas">
+    <section class="cas" id="cas">
         <h2>A čas plynul</h2>
         <p>Postupně jsme sledovali, jak Vilém vyrostl ze zranitelného kotěte v sevebědomého kocoura. Postupně se přestal bát cizích lidí a jeho počáteční nedůvěru nahradila odvaha. Každým předením a hraním mi Vilém připomíná houževnatost a sílu, kterou můžeme najít i na nejneočekávanějších místech.</p>
         <table>
@@ -101,7 +96,7 @@
                     <td><img src="photos/onheadsmile1.JPEG"></td>
                 </tr>
                 <tr>
-                    <td class="nodash" class="nopadding">3. rok</td>
+                    <td class="nodashnopadding">3. rok</td>
                     <td class="nodash"><img src="photos/sofa1.JPEG"></td>
                 </tr>
         </table>
