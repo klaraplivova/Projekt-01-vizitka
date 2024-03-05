@@ -12,6 +12,7 @@
 </head>
 <body>
     <section>
+        <!-- add working ids to the sections  -->
         <ul class="menu">
             <li><a href=#omne>O mně</a></li>
             <li><a href=#prvnisetkani>První setkání</a></li>
@@ -26,17 +27,17 @@
         <img src="photos/header1.png" alt="hlava kocky" class="hlava">
     </header>
 
-    <section class="omne">
+    <section class="omne" id=omne>
         <img class="fotoklara" src="photos/profilepicture1.JPG" alt="fotoklara">
         <h2>O mně</h2>
-        <p>Jmenuju se Klára Plívová a tyto stránky jsem zasvětila příběhu svého kocoura.</p>
+        <p>Jmenuju se Klára Plívová a tyto stránky jsou o příběhu mého kocoura.</p>
         <h3>Kontakt</h3>
         <p><img class="icon" src="photos/githubicon.png" alt="github icon"><a href="https://github.com/klaraplivova">Github</a><br><img class="icon" src="photos/linkedinicon.png" alt="linkedin icon"><a href="https://cz.linkedin.com/in/kl%C3%A1ra-pl%C3%ADvov%C3%A1-954a44261">Linkedin</a></p>
     </section>
 
     <section class="setkani" id="setkani">
-        <img src="photos/creamcheese.JPG" alt="kotě od tvarohu">
-        <img src="photos/sleepinhands.JPEG" alt="kotě v náručí">
+        <img src="photos/creamcheese1.JPG" alt="kotě od tvarohu">
+        <img src="photos/sleepinhands1.JPEG" alt="kotě v náručí">
         <h2>První setkání</h2>
         <p>Vše začalo na podzimní procházce poblíž rušné zeležniční trati. Začínalo se stmívat a foukal chladný říjnový vítr. I přes hluk města jsem zaslechla vysoký pískot.</p>
         <p>Po zvuku jsem rychle došla až k opadanému keři, kdes se mezi štěrkem choulilo malé klubíčko chlupů. Opatrně jsem se k němu přiblížila a s abolutní důvěrou mi do náruče vběhlo malé, ale odhodlané kotě, v jehož modrých očích se odrážela naděje.</p>
@@ -52,7 +53,7 @@
         <ul>
             <li>Ospalý</li>
             <li>Schovaný</li>
-            <li>Praštěný</li>
+            <li>Silly</li>
         </ul>
 
     </section>
@@ -60,26 +61,31 @@
     <section class="fotogalerie">
         <h2>Fotogalerie</h2>
 
+<!-- add ids to the list above -->
+
         <div class="ospaly">
                 <img src="photos/laptopmorning.JPEG" alt="">
-                <img src="photos/box.JPEG" alt="">
-                <img src="photos/cupboard.JPEG" alt="">
-                <img src="photos/grass.JPEG" alt="">
-                <img src="photos/drinking.JPEG">
+                <img src="photos/IMG_9345.JPEG" alt="">
+                <img src="photos/kittybedsheetsog.JPEG" alt="">
+                <img src="photos/bedsheets.JPG" alt="">
         </div>
 
         <div class="schovany"> 
-            <p>
-
-            </p>
+                <img src="photos/mccatog.JPEG" alt="kocour v peřině">
+                <img src="photos/sleepinsweater.JPEG" alt="">
+                <img src="photos/cupboard.JPEG" alt="">
+                <img src="photos/box.JPEG" alt="">
         </div>
 
-        <div class="prasteny">
-            <p>
-
-            </p>
+        <div class="silly">
+                <img src="photos/grass.JPEG">
+                <img src="photos/drinking.JPEG">
+                <img src="photos/head_rest.JPEG">
+                <img src="photos/hidden.JPEG">
         </div>
     </section>
+
+<!-- can element have more classes? -->
 
     <section class="cas">
         <h2>A čas plynul</h2>
@@ -87,16 +93,16 @@
         <table>
             <tbody>
                 <tr>
-                    <td>1. rok</td>
-                    <td><img src="photos/kittybedsheets.JPEG"</td>
+                    <td class="nopadding">1. rok</td>
+                    <td><img src="photos/standkitty1.JPEG"></td>
                 </tr>
                 <tr>
-                    <td>2. rok</td>
-                    <td><img src="photos/mccat.JPEG"></td>
+                    <td class="nopadding">2. rok</td>
+                    <td><img src="photos/onheadsmile1.JPEG"></td>
                 </tr>
                 <tr>
-                    <td class="nodash">3. rok</td>
-                    <td class="nodash"><img src="photos/sofa.JPEG"</td>
+                    <td class="nodash" class="nopadding">3. rok</td>
+                    <td class="nodash"><img src="photos/sofa1.JPEG"></td>
                 </tr>
         </table>
     </section>
